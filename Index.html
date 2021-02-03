@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>FI Messenger</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="script" href="script.js" />
+</head>
+<body>
+<main>
+    <h1>FI Messenger</h1>
+    <iframe src="ausgabe.php"></iframe>
+    <form action="eingabe.php" method=post>
+        <input type=hidden name=name maxlength=255/>
+        <label for=text>
+            Dein Text: <input name=text id=text maxlength=255 required autofocus />
+        </label>
+        <button type="submit">Abschicken</button>
+    </form>
+</main>
+</body>
+</html>

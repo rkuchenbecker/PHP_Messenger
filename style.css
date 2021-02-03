@@ -1,0 +1,10 @@
+body {font-family:sans-serif}
+main {max-width:960px;margin:0 auto}
+iframe {display:block;border:0;width:100vw;min-height:100vh; position:fixed;top:5em;left:0;right:0;bottom:20vh;z-index:1;}
+form {display:block; width:100vw;position:fixed;top:80vh;left:0; right:0;bottom:0;padding-top:2em;text-align:center; border:0;background:lightgray;z-index:2}
+label {vertical-align:middle;display:inline;}
+input {font:medium sans-serif;width:50vw;padding:.3em;margin:.1em}
+.eintrag {font:small sans-serif;padding:1em;background:lightyellow; text-align:right;}
+.eintrag:nth-child(odd) {background:gold}
+.eintrag > p {text-align:left;font-size:1.5em}
+.eintrag:last-of-type {margin-bottom: 40vh;}
