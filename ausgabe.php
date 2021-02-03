@@ -28,5 +28,4 @@ if (is_file($pfadDatei)) {
         }
     }
 }
-header("location: .");
 ?>
