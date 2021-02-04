@@ -6,5 +6,5 @@ if(count($_POST) > 0) {
     array_push($daten, time());
     $datensatz = join(";", $daten) . PHP_EOL;
     file_put_contents($pfadDatei, $datensatz, FILE_APPEND);
-    header("location: ausgabe.php");
+    header("location: .");
 }?>
